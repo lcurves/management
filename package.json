@@ -1,0 +1,25 @@
+{
+  "name": "management",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "tsc && node index",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@lcurves/curve-service": "^1.0.10",
+    "bluebird": "^3.5.1",
+    "mongodb": "^2.2.31"
+  },
+  "devDependencies": {
+    "@types/bluebird": "^3.5.14",
+    "@types/es6-promise": "0.0.33",
+    "@types/node": "^8.0.31"
+  },
+  "engines": {
+    "node": "8.6.0"
+  }
+}
