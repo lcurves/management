@@ -1,5 +1,5 @@
 import profileModule from './profiles/profiles.module';
 
-export default [
+export const modules = [
     profileModule
 ];

@@ -1,7 +1,7 @@
 import {ObjectID, Collection} from 'mongodb';
-import { get } from "../../management-service";
+import { service } from "../../management-service";
 
-const collection: Collection = get().db.collection('profiles');
+const collection: Collection = service().db.collection('profiles');
 
 export function query(query: Object) {
     return collection.find(query).toArray();
