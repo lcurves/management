@@ -10,7 +10,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "@lcurves/curve-service": "^1.0.10",
+    "@lcurves/curve-service": "^1.0.11",
     "bluebird": "^3.5.1",
     "mongodb": "^2.2.31"
   },
